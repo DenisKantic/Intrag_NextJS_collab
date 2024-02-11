@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Main from "./components/Main";
 
 export default function Home() {
   return (
-   <div>
-    <h1>Test</h1>
+   <div className="bg-[#F7F7F7]">
+    <Main />
    </div>
   ); 
 }
