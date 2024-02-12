@@ -26,20 +26,23 @@ export default function WhatWeDo() {
         }
     ])
 
-    const [textContent, setTextContet] = useState(actionList[0].content)
+    const [textContent, setTextContet] = useState(['bg-[#00FFFF]', actionList[0].content])
 
-    const [activeColor, setActiveColor] = useState([1, 'bg-[#00FFFF]', 'text-black'])
+    const [activeColor, setActiveColor] = useState([1, 'bg-[#00FFFF]', 'text-black', 'black'])
 
     const pickItem = (id) => {
-       setTextContet(actionList[id-1].content);
         if (id === 1) {
-            setActiveColor([1,'bg-[#00FFFF]', 'text-black'])
+            setTextContet(['bg-[#00FFFF]', actionList[id-1].content])
+            setActiveColor([1,'bg-[#00FFFF]', 'text-black', 'black'])
         } else if (id === 2) {
-            setActiveColor([2, 'bg-[#FF00FF]', 'text-white'])
+            setTextContet(['bg-[#FF00FF]', actionList[id-1].content])
+            setActiveColor([2, 'bg-[#FF00FF]', 'text-slate-100', 'white'])
         } else if (id === 3) {
-            setActiveColor([3, 'bg-[#FFFF00]', 'text-black'])
+            setTextContet(['bg-[#FFFF00]', actionList[id-1].content])
+            setActiveColor([3, 'bg-[#FFFF00]', 'text-black','black'])
         } else if (id === 4) {
-            setActiveColor([4, 'bg-[#131313]', 'text-white'])
+            setTextContet(['bg-[#131313]', actionList[id-1].content])
+            setActiveColor([4, 'bg-[#131313]', 'text-slate-100', 'white'])
         }
     }
 
@@ -50,25 +53,25 @@ export default function WhatWeDo() {
             <h2 className='text-4xl font-light'>Čime se bavimo</h2>
         </div>
         <div className='flex'>
-            <div className='w-1/2 mr-36'>
+            <div className='w-1/2 mr-20'>
             {
                 actionList.map(content => (
-                    <div key={content.id} className={`cursor-pointer flex p-4 mb-4 shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-md items-center justify-between ${content.id === activeColor[0] ? activeColor[1] : ''}`} onClick={() => pickItem(content.id)}>
+                    <div key={content.id} className={`cursor-pointer flex p-4 ${content.id != 4 ? 'mb-4' : ''} shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-md items-center justify-between ${content.id === activeColor[0] ? activeColor[1] : ''}`} onClick={() => pickItem(content.id)}>
                         <p className={`${content.id === activeColor[0] ? activeColor[2] : ''}`}>
                             {content.title}
                         </p>
-                        <GoChevronRight color={content.id === activeColor[0] ? activeColor[3] : ''}/>
+                        <GoChevronRight color={`${content.id === activeColor[0] ? activeColor[3] : ''}`}/>
                     </div>
                 ))
             }
             </div>
-            <div className='w-1/2'>
-                <p className="relative pl-4">
-                    <span className="absolute top-0 left-0 w-1 h-px bg-gray-500"></span>
-                    {textContent}
+            <div className='w-1/2 flex flex-col justify-between'>
+                <p className="relative indent-16">
+                    <span className={`absolute top-3 left-0 w-12 h-0.5 ${textContent[0]}`}></span>
+                    {textContent[1]}
                 </p>
                 <button className='bg-black hover:bg-slate-700 text-white font-light py-3 w-52 rounded'>
-                    Vidi više
+                    Upit za narudžbu
                 </button>
             </div>
         </div>
