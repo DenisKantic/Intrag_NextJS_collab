@@ -14,7 +14,7 @@ import {
 const Articles = () => {
   return (
     <div 
-    className='bg-[#F7F7F7] h-[65vh] p-10'>
+    className='bg-[#F7F7F7] min-h-[65vh] p-10'>
     <span 
     className='text-black flex flex-row items-center'>
         ------
