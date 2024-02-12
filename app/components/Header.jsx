@@ -48,7 +48,7 @@ export default function Header() {
         return () => clearInterval(interval);
     }, [daysOfWork]);
   return (
-    <header className=''>
+    <header className='bg-header-background bg-contain bg-no-repeat bg-center py-36'>
         <div className='flex justify-between items-center'>
             <div className='w-1/2 mr-20'>
                 <h1 className='text-7xl font-light mb-8'>
@@ -65,20 +65,20 @@ export default function Header() {
                 
                 <div className='relative'>
                     <div className='rounded-full bg-slate-200 p-[240px] absolute top-[-300px] right-[120px]'>
-                            <div className='w-32 h-32 rounded-full  
+                        <div className='w-32 h-32 rounded-full bg-white 
                         inline-flex items-center justify-center flex flex-col
                         shadow-[0_8px_30px_rgb(0,0,0,0.12)] text-gray-700  absolute top-52 -left-40'>
                             <p className='text-4xl font-normal text-blue-500'>{numOfProjects}+</p>
                             <p className='text-sm'>projekata</p>
                         </div>
-                        <div className='w-32 h-32 rounded-full flex flex-col  
+                        <div className='w-32 h-32 rounded-full flex flex-col bg-white 
                         inline-flex items-center justify-center  
                         shadow-[0_8px_30px_rgb(0,0,0,0.12)] text-gray-700  absolute top-[380px] -left-24'>
                             <p className='text-4xl font-normal text-blue-500'>{numOfYearsOfExp}</p>
                             <p className='text-sm'>godina</p>
                             <p className='text-sm'>iskustva</p>
                         </div>
-                        <div className='w-32 h-32 rounded-full  flex flex-col
+                        <div className='w-32 h-32 rounded-full  flex flex-col bg-white
                         inline-flex items-center justify-center  
                         shadow-[0_8px_30px_rgb(0,0,0,0.12)] text-gray-700  absolute top-[490px] left-12'>
                             <p className='text-4xl font-normal text-blue-500'>{daysOfWork}</p>

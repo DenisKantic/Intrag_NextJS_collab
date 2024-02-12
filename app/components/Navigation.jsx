@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Navigation() {
   return (
     <div className='px-40 pt-6'>
-        <nav className='flex justify-between p-4 mb-60 items-center bg-gradient-to-r from-fuchsia-50 via-green-100 to-amber-50 rounded-lg bg-repeat-x'>
+        <nav className='flex justify-between p-4 mb-28 items-center bg-gradient-to-r from-fuchsia-50 via-green-100 to-amber-50 rounded-lg bg-repeat-x'>
             <Image src="/images/logo_intrag.png" alt="Logo intrag" width={100} height={100}/>
             <div>
                 <ul className='flex'>

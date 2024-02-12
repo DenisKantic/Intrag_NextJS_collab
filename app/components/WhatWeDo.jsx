@@ -47,7 +47,7 @@ export default function WhatWeDo() {
     }
 
   return (
-    <div className='mt-96'>
+    <div className='mt-72'>
         <div className='flex items-center mb-20'>
             <span className='w-24 mr-6 block h-px bg-slate-800'></span>
             <h2 className='text-4xl font-light'>Čime se bavimo</h2>
