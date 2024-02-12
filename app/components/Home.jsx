@@ -1,9 +1,15 @@
 import React from 'react'
-
-const Home = () => {
+import Header from './Header'
+import OurStory from './OurStory'
+import WhatWeDo from './WhatWeDo'
+const HomePage = () => {
   return (
-    <div>Home</div>
+    <div className='px-40'>
+      <Header />
+      <OurStory />
+      <WhatWeDo />
+    </div>
   )
 }
 
-export default Home
+export default HomePage
