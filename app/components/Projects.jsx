@@ -19,21 +19,20 @@ const Projects = () => {
           className='h-full object-cover'
           />
           <div className='absolute bottom-0 p-5'>
-          <h2 className='text-white'>Izrada kataloga</h2>
+          <p className='text-white'>Izrada kataloga</p>
           <p className='text-gray-400'>Neodent d.o.o.</p>
          </div>
         </div>
 
         <div className='bg-red-400 relative'>
         <Image 
-          src="/images/katalog.jpg"
+          src="/images/pozivnica.jpg"
           width={500}
           height={500}
           className='h-full object-cover'
           />
           <div className='absolute bottom-0 p-5'>
-          <h2 className='text-white'>Izrada kataloga</h2>
-          <p className='text-gray-400'>Neodent d.o.o.</p>
+          <p className='text-white'>Izrada pozivnice</p>
          </div>
         </div>
 
@@ -45,34 +44,31 @@ const Projects = () => {
           className='h-full object-cover'
           />
           <div className='absolute bottom-0 p-5'>
-          <h2 className='text-white'>Izrada kataloga</h2>
-          <p className='text-gray-400'>Neodent d.o.o.</p>
+          <p className='text-white'>Kalendar sa slikama</p>
          </div>
         </div>
 
         <div className='bg-blue-400 relative'>
         <Image 
-          src="/images/katalog.jpg"
+          src="/images/kutija.jpg"
           width={500}
           height={500}
           className='h-full object-cover'
           />
           <div className='absolute bottom-0 p-5'>
-          <h2 className='text-white'>Izrada kataloga</h2>
-          <p className='text-gray-400'>Neodent d.o.o.</p>
+          <p className='text-white'>Kutija za poklon</p>
          </div>
         </div>
 
-        <div className='bg-blue-400 relative'>
+        <div className='relative'>
         <Image 
-          src="/images/katalog.jpg"
+          src="/images/dekoracija.jpg"
           width={500}
           height={500}
           className='h-full object-cover'
           />
           <div className='absolute bottom-0 p-5'>
-          <h2 className='text-white'>Izrada kataloga</h2>
-          <p className='text-gray-400'>Neodent d.o.o.</p>
+          <p className='text-white'>Izrada dekoracije</p>
          </div>
         </div>
         
