@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <div className='mt-20 h-screen'>
+    <div className='mt-20 min-h-[50vh] mb-20'>
            <div className='flex items-center mb-20'>
             <span className='w-24 mr-6 block h-px bg-slate-800'></span>
             <h2 className='text-4xl font-light'>Uspješno završeni projekti</h2>
