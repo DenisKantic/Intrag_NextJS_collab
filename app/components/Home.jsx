@@ -2,19 +2,19 @@ import React from 'react'
 import Header from './Header'
 import OurStory from './OurStory'
 import WhatWeDo from './WhatWeDo'
-import Articles from './Articles'
 import Projects from './Projects'
 import Clients from './Clients'
+import TransformationBrend from './TransformationBrend'
 
 const HomePage = () => {
   return (
-    <div className='px-40'>
+    <div className='xxs:p-5 md:p-0 md:px-20 lg:px-40 overflow-hidden'>
       <Header />
       <OurStory />
       <WhatWeDo />
-      <Articles />
       <Projects />
       <Clients />
+      <TransformationBrend />
     </div>
   )
 }

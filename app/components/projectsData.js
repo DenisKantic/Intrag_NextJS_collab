@@ -13,7 +13,7 @@ const data = [
     },
     {
         "title": "Sjajna saradnja, izuzetni rezultati.",
-        "text": "Njihova stručnost u brendiranju je nevjerovatna, a rezultati su premašili naša očekivanja. Preporučujemo ih svakome ko želi istaknuti svoj brend.",
+        "text": "Njihova stručnost u brendiranju je nevjerovatna, a rezultati su premašili naša očekivanja. Preporučujemo ih svakome.",
         "name": "Amra G.",
         "owner": "Menadžer prodaje, InSolutions"
     }
