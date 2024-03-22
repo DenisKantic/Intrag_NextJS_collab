@@ -17,7 +17,7 @@ const Clients = () => {
         <div className='grid gap-10 grid-cols-auto min-h-[30vh]
                         xxs:grid-rows-3 md:grid-cols-3'>
             {data.map((item,index)=>(
-                <div key={index} className='flex flex-col p-5 bg-white shadow-xl h-[350px]'>
+                <div key={index} className='flex flex-col p-5 bg-white shadow-xl min-h-[350px]'>
                     <span className='flex text-xl text-yellow-500'>
                         <FaStar />
                         <FaStar />
@@ -35,7 +35,7 @@ const Clients = () => {
                       {item.text}</p>
 
                       <div className='mt-auto'>
-                        <p className='text-md font-light'>{item.title}</p>
+                        <p className='text-md font-light'>{item.name}</p>
                         <p className='text-sm pt-2 text-gray-600 font-light'>{item.owner}</p>
                       </div>
                 </div>
