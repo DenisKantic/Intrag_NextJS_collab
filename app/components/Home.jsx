@@ -5,6 +5,7 @@ import WhatWeDo from './WhatWeDo'
 import Projects from './Projects'
 import Clients from './Clients'
 import TransformationBrend from './TransformationBrend'
+import Footer from './Footer'
 
 const HomePage = () => {
   return (

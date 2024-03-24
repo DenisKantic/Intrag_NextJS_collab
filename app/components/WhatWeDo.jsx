@@ -50,7 +50,7 @@ export default function WhatWeDo() {
     <div className='mt-72'>
         <div className='flex items-center xxs:mb-10 md:mb-20'>
             <span className='xxs:w-12 mdd:w-24 mr-6 block h-px bg-slate-800'></span>
-            <h2 className='font-light xxs:text-md md:text-4xl'>Čime se bavimo</h2>
+            <h2 className='font-light xxs:text-md md:text-4xl cursor-default'>Čime se bavimo</h2>
         </div>
         <div className='flex'>
             <div className='xxs:w-full mdd:w-1/2 mdd:mr-20'>
@@ -69,7 +69,7 @@ export default function WhatWeDo() {
                 ))
             }
             </div>
-            <div className='w-1/2 flex flex-col justify-between xxs:hidden mdd:block'>
+            <div className='w-1/2 flex flex-col justify-between xxs:hidden mdd:block cursor-default'>
                 <p className="relative indent-16 mb-5">
                     <span className={`absolute top-3 left-0 w-12 h-0.5 ${textContent[0]}`}></span>
                     {textContent[1]}

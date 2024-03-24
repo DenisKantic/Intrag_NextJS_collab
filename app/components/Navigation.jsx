@@ -10,7 +10,7 @@ export default function Navigation() {
          {/*px-40 pt-6' */}
         <nav className='flex p-4 mb-28 items-center bg-gradient-to-r from-fuchsia-50 via-green-100 to-amber-50 rounded-lg bg-repeat-x
                         xxs:justify-center md:justify-between xxs:w-full'>
-            <Image src="/images/logo_intrag.png" alt="Logo intrag" width={100} height={100} className='xxs:hidden md:flex'/>
+            <Image src="/images/logo_intrag.png" alt="Logo intrag" width={80} height={80} className='xxs:hidden md:flex'/>
             <div>
                 <ul className='flex xxs:w-full'>
                     <Link href="#AboutUs" className='mr-12 cursor-pointer xxs:text-sm md:text-lg font-medium hover:text-slate-500'>O nama</Link>

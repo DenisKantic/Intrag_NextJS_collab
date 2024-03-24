@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa6";
 const Clients = () => {
   return (
     <div 
-    className='min-h-[50vh] w-full pb-10'>
+    className='min-h-[50vh] w-full pb-10 cursor-default'>
           <div className='flex items-center mb-20 w-full'>
             <span className='xxs:w-14 mdd:w-24 xxs:mr-2 md:mr-6 block h-px bg-slate-800'></span>
             <h2 className='font-light xxs:text-xl md:text-4xl'>Klijenti o nama</h2>
