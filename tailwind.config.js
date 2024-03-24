@@ -1,14 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  screens:{
-        "xxs": "200px",
-        "md": "600px",
-        "lg":"900px"
-  }
+  theme: {
+    screens:{
+      "xxs": "200px",
+      "sm": "499px",
+      "md": "500px",
+      "lg": "1000px",
+      "xxl": "1200px"
+    },
+    extend: {},
+  },
+  plugins: [],
 }
