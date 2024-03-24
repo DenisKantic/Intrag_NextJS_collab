@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <div className='mt-20 min-h-[50vh] mb-20'>
+    <div className='mt-20 min-h-[50vh] mb-20' id='Products'>
            <div className='flex items-center xxs:mb-10 md:mb-20'>
             <span className='xxs:w-12 mdd:w-24 mr-2 block h-px bg-slate-800'></span>
             <h2 className='font-light xxs:text-sm md:text-4xl'>Uspješno završeni projekti</h2>
@@ -12,7 +12,7 @@ const Projects = () => {
     <div className='grid grid-cols-3 grid-rows-2 grid-flow-col auto-rows-max gap-5 min-h-[50vh] w-full
                     xxs:grid-cols-1 xxs:grid-rows-5 md:grid-cols-3 md:grid-rows-2'>
         
-        <div className='grid relative xxs:row-span-0 md:row-span-2 bg-black'>
+        <div className='grid relative xxs:row-span-0 md:row-span-2 bg-black min-h-[300px]'>
           <Image 
           src="/images/katalog.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -31,7 +31,7 @@ const Projects = () => {
           src="/images/school.jpg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           fill={true}
-          className='h-full object-center opacity-70'
+          className='h-full object-cover opacity-70'
           alt='Intrag izrada natpisa'
           />
           <div className='absolute bottom-0 p-5'>
@@ -72,7 +72,7 @@ const Projects = () => {
         <Image 
           src="/images/brosure.jpg"
           fill={true}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          sizes="100vh"
           alt='Primjer izrade brošura'
           className='h-full object-cover opacity-70'
           />
