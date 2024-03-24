@@ -6,12 +6,13 @@ const Projects = () => {
     <div className='mt-20 min-h-[50vh] mb-20'>
            <div className='flex items-center mb-20'>
             <span className='w-24 mr-6 block h-px bg-slate-800'></span>
-            <h2 className='text-4xl font-light'>Uspješno završeni projekti</h2>
+            <h2 className='font-light xxs:text-xl md:text-4xl'>Uspješno završeni projekti</h2>
         </div>
 
-    <div className='grid grid-cols-3 grid-rows-2 grid-flow-col auto-rows-max gap-5 h-[50vh] w-full'>
+    <div className='grid grid-cols-3 grid-rows-2 grid-flow-col auto-rows-max gap-5 min-h-[50vh] w-full
+                    xxs:grid-cols-1 xxs:grid-rows-5 md:grid-cols-3 md:grid-rows-2'>
         
-        <div className='grid row-span-2 relative'>
+        <div className='grid relative xxs:row-span-0 md:row-span-2'>
           <Image 
           src="/images/katalog.jpg"
           width={500}

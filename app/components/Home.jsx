@@ -8,7 +8,7 @@ import TransformationBrend from './TransformationBrend'
 
 const HomePage = () => {
   return (
-    <div className='xxs:p-5 md:px-10 xxl:px-40 overflow-hidden'>
+    <div className='xxs:p-10 md:px-10 xxl:px-40 overflow-hidden'>
       <Header />
       <OurStory />
       <WhatWeDo />
