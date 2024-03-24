@@ -47,10 +47,10 @@ export default function WhatWeDo() {
     }
 
   return (
-    <div className='mt-72'>
+    <div className='xxs:mt-10 md:mt-20 mdd:mt-40'>
         <div className='flex items-center xxs:mb-10 md:mb-20'>
             <span className='xxs:w-12 mdd:w-24 mr-6 block h-px bg-slate-800'></span>
-            <h2 className='font-light xxs:text-md md:text-4xl cursor-default'>Čime se bavimo</h2>
+            <h2 className='font-light xxs:text-lg sm:text-xl md:text-4xl cursor-default'>Čime se bavimo</h2>
         </div>
         <div className='flex'>
             <div className='xxs:w-full mdd:w-1/2 mdd:mr-20'>

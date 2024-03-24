@@ -71,8 +71,8 @@ const Projects = () => {
         <div className='bg-black relative'>
         <Image 
           src="/images/brosure.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           fill={true}
-          sizes="100vh"
           alt='Primjer izrade brošura'
           className='h-full object-cover opacity-70'
           />

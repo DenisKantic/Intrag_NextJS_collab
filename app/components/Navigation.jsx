@@ -1,5 +1,4 @@
 import React from 'react'
-import { PiEnvelopeSimpleLight } from "react-icons/pi";
 import { FaEnvelope } from "react-icons/fa6";
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,12 +8,18 @@ export default function Navigation() {
     <div className='xxs:px-5 xxs:w-full xxs:mx-auto mdd:px-20 lg:px-40'>
          {/*px-40 pt-6' */}
         <nav className='flex p-4 mb-28 items-center bg-gradient-to-r from-fuchsia-50 via-green-100 to-amber-50 rounded-lg bg-repeat-x
-                        xxs:justify-center md:justify-between xxs:w-full'>
-            <Image src="/images/logo_intrag.png" alt="Logo intrag" width={80} height={80} className='xxs:hidden md:flex'/>
+                        xxs:justify-center xxs:items-center sm:justify-between xxs:w-full'>
+               <div className='flex items-center justify-center xxs:hidden sm:block'>
+                    <Image src="/images/logo_intrag.png" 
+                    alt="Logo intrag" 
+                    height={60}
+                    width={60}
+                    className='object-cover'/>
+                </div>
             <div>
-                <ul className='flex xxs:w-full'>
-                    <Link href="#AboutUs" className='mr-12 cursor-pointer xxs:text-sm md:text-lg font-medium hover:text-slate-500'>O nama</Link>
-                    <Link href="#Products" className='mr-12 cursor-pointer xxs:text-sm md:text-lg font-medium hover:text-slate-500'>Proizvodi</Link>
+                <ul className='flex xxs:w-full ml-5'>
+                    <Link href="#AboutUs" className='xxs:mr-5 sm:mr-14 cursor-pointer xxs:text-sm md:text-lg font-medium hover:text-slate-500'>O nama</Link>
+                    <Link href="#Products" className='xxs:mr-5 sm:mr-14 cursor-pointer xxs:text-sm md:text-lg font-medium hover:text-slate-500'>Proizvodi</Link>
                     <Link href="#Contact" className='cursor-pointer xxs:text-sm md:text-lg font-medium hover:text-slate-500'>Kontakt</Link>
                 </ul>
             </div>

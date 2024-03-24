@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='w-full relative min-h-[6vh] bg-slate-900 text-center text-white flex items-center justify-center'>
-        <p className='cursor-default'>Intrag d.o.o. &copy; 2024 <br /> 
+        <p className='cursor-default w-full break-words'>Intrag d.o.o. &copy; 2024 <br /> 
         Dizajnirali:
         <span className='ml-2'><a href="https://www.linkedin.com/in/hamza-paldum/" 
         target='_blank' className='font-bold mr-2'>
@@ -14,7 +14,7 @@ const Footer = () => {
              target='_blank' className='font-bold ml-2 mr-2'>
                 Nejra
                 </a>
-                </span>  
+                </span>
                 Kreirali: 
                 <span>
                     <a href="https://www.linkedin.com/in/denis-kantic/"
