@@ -2,8 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full relative min-h-[6vh] bg-slate-900 text-center text-white flex items-center justify-center'>
-        <p className='cursor-default w-full break-words'>Intrag d.o.o. &copy; 2024 <br /> 
+    <div className='w-full min-h-[6vh] bg-slate-900 text-center text-white flex items-center justify-center'>
+        <div className='cursor-default w-[90%] break-words'>
+          <p>Intrag d.o.o. &copy; 2024 <br /></p> 
+        <p className='w-full break-words'>
         Dizajnirali:
         <span className='ml-2'><a href="https://www.linkedin.com/in/hamza-paldum/" 
         target='_blank' className='font-bold mr-2'>
@@ -15,8 +17,9 @@ const Footer = () => {
                 Nejra
                 </a>
                 </span>
+                <span className='sm:hidden'><br /></span>
+                <span className='break-all'>
                 Kreirali: 
-                <span>
                     <a href="https://www.linkedin.com/in/denis-kantic/"
                      target='_blank' className='font-bold ml-2 mr-2'>
                         Denis
@@ -27,7 +30,11 @@ const Footer = () => {
                             Ismar
                             </a>
                             </span>
-        </p>
+                            </p>
+                         
+        </div>
+      
+           
     </div>
   )
 }
