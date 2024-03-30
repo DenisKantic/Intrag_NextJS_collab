@@ -5,7 +5,7 @@ import WhatWeDo from './WhatWeDo'
 import Projects from './Projects'
 import Clients from './Clients'
 import TransformationBrend from './TransformationBrend'
-import Footer from './Footer'
+import Articles from './Articles'
 
 const HomePage = () => {
   return (
@@ -13,6 +13,7 @@ const HomePage = () => {
       <Header />
       <OurStory />
       <WhatWeDo />
+      <Articles />
       <Projects />
       <Clients />
       <TransformationBrend />
