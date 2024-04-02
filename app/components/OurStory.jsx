@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function OurStory() {
   return (
-    <div className='mt-44' id='AboutUs'>
+    <div className='mt-20' id='AboutUs'>
         <div className='flex items-center xxs:mb-10'>
             <span className='xxs:w-14 mdd:w-24 xxs:mr-2 md:mr-6 block h-px bg-slate-800'></span>
             <h2 className='xxs:text-xl md:text-3xl mdd:text-4xl font-light'>Priča o Intrag štampariji</h2>

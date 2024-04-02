@@ -7,7 +7,7 @@ export default function Navigation() {
    
     <div className='xxs:px-5 xxs:w-full xxs:mx-auto mdd:px-20 lg:px-40'>
          {/*px-40 pt-6' */}
-        <nav className='flex p-4 mb-28 items-center bg-gradient-to-r from-fuchsia-50 via-green-100 to-amber-50 rounded-lg bg-repeat-x
+        <nav className='flex p-4 items-center bg-gradient-to-r from-fuchsia-50 via-green-100 to-amber-50 rounded-lg bg-repeat-x
                         xxs:justify-center xxs:items-center sm:justify-between xxs:w-full'>
                <div className='flex items-center justify-center xxs:hidden sm:block'>
                     <Image src="/images/logo_intrag.png" 
