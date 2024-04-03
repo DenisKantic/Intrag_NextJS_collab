@@ -7,7 +7,7 @@ import ContactUs from "./components/ContactUs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Intrag d.o.o.",
+  title: "INTRAG d.o.o.",
   description: "INTRAG d.o.o. - Vaša stamparija visoke kvalitete za sve potrebe printanja. Specijalizirani smo za printanje na različite materijale, pružamo usluge grafičkog dizajna, graviranja, te izradu personaliziranih poklona, vizit kartica, kataloga i mnogo više. Uvjerite se u našu kvalitetu.",
   icons: {
     icon:[
