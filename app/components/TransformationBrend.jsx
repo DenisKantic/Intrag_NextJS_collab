@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const TransformationBrend = () => {
   return (
-    <div className='h-[60vh] mt-10 mb-10' id='Contact'>
+    <div className='h-[60vh] mt-10 mb-10'>
     <div className='flex w-full h-full'>
         <div className='bg-black text-white  p-10 flex flex-col justify-center xxs:w-full mdd:w-[50%]'>
             <p className='font-bold

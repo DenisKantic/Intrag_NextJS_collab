@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ContactUs = () => {
   return (
-    <div className='min-h-[40vh] bg-slate-800 w-full flex flex-row justify-center items-center'>
+    <div className='min-h-[40vh] bg-slate-800 w-full flex flex-row justify-center items-center' id='Contact'>
         <div className='xxs:p-10 md:px-10 xxl:px-40 overflow-hidden w-full text-white text-xl grid auto-cols-max
          xxs:grid-cols-1 mdd:grid-cols-3'>
             <div className='xxs:mt-10'>

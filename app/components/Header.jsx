@@ -9,10 +9,11 @@ export default function Header() {;
                         xxs:flex-col mdd:flex-row'>
 
             <div className='w-1/2 
-                            xxs:w-full mdd:w-1/2'>
+                            xxs:w-full xxs:flex xxs:flex-col xxs:items-center 
+                            mdd:w-1/2 mdd:items-start'>
                 <h1 className='font-light mb-8
                                 xxs:text-3xl xxs:text-center xxs:font-normal
-                                md:text-7xl md:text-left md:font-light'>
+                                md:text-6xl mdd:text-7xl mdd:text-left md:font-light'>
                     Vizuelni identitet <br className='xxs:hidden md:block'/> iz snova
                 </h1>
                 <p className='mb-8 text-slate-700 
