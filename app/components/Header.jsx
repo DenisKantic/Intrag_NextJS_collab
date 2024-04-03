@@ -21,9 +21,9 @@ export default function Header() {;
                             md:text-lg lg:text-left'>
                 Sa strašću prema grafici i vrhunskom digitalnom štampom, pružamo personalizovane usluge dizajna i štampe koje ističu vaš brend.
                 </p>
-                <button className='bg-black hover:bg-slate-700 text-white font-light py-3 w-52 rounded'>
+                <a href="mailto:intragdoo@gmail.com" target="_blank"  className='bg-black hover:bg-slate-700 text-white text-center font-light py-3 w-52 rounded'>
                     Upit za narudžbu
-                </button>
+                </a>
             </div>
             <div className='xxs:w-full xxs:mt-10 mdd:w-1/2 mdd:mt-0'>
                 
