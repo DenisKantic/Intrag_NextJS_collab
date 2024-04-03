@@ -8,7 +8,19 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Intrag d.o.o.",
-  description: "Intrag",
+  description: "INTRAG d.o.o. - Vaša stamparija visoke kvalitete za sve potrebe printanja. Specijalizirani smo za printanje na različite materijale, pružamo usluge grafičkog dizajna, graviranja, te izradu personaliziranih poklona, vizit kartica, kataloga i mnogo više. Uvjerite se u našu kvalitetu.",
+  icons: {
+    icon:[
+      '/favicon.ico?v=4'
+    ],
+    apple:[
+      '/apple-touch-icon.png?v=4'
+    ],
+    shortcut:[
+      '/apple-touch-icon.png'
+    ]
+  },
+  manifest: '/site.webmanifest'
 };
 
 export default function RootLayout({ children }) {
